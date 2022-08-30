@@ -13,3 +13,10 @@ function calculate() {
   var q = eval(p);
   document.getElementById("result").value = q;
 }
+function del() {
+  let value = document.getElementById("result").value;
+  value = parseInt(value);
+  let ans = parseInt(value / 10);
+  console.log(typeof value);
+  document.getElementById("result").value = ans;
+}

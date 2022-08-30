@@ -39,3 +39,6 @@ input:active[type="button"] {
 .button1 {
   float: left;
 }
+.bar {
+  width: 65%;
+}

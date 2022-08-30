@@ -8,11 +8,14 @@
   <body>
     <table class="calculator">
       <tr>
-        <td colspan="3" class="bar">
+        <td colspan="2" class="bar">
           <input class="display-box" type="text" id="result" disabled />
         </td>
 
         <!-- clearScreen() function clears all the values -->
+        <td>
+          <input type="button" value="del" onclick="del()" id="btn" />
+        </td>
         <td>
           <input type="button" value="C" onclick="clearScreen()" id="btn" />
         </td>
